@@ -1,0 +1,115 @@
+.content-2{
+    background-color: #e8f8fd;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    margin-top: 5rem;
+}
+.sales{
+    width:70%;
+    border: none;
+    background-color: white;
+    margin-top: 7rem;
+    margin-left: 15rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    border-color: #d5deec;
+    
+}
+.technical-support,.chat{
+    width:70%;
+    border: none;
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: 15rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    border-color: #d5deec;
+
+}
+.sales-heading,.technical-support-heading,.chat-heading{
+    color: #283a5e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.content-2 a{
+    text-decoration: none;
+    color: black;
+}
+.technical-support-content p,.chat p,.sales p{
+    margin-top: 1rem;
+}
+.left-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.right-side{
+    margin-left: 5rem;
+    margin-top: 7rem;
+    display: flex;
+    width: 50%;
+}
+.message{
+    border: 1px solid black;
+    width: 70%;
+    padding-top: 2rem;
+    border: none;
+    background-color: white;
+    border-radius: 2rem;
+    height: 678px;
+    box-shadow: inset -10px -10px rgb(223, 222, 222);
+}
+.message-heading{
+    text-align: center;
+}
+.form1{
+    padding-left: 5rem;
+    color: #606f85;
+    font-size: .9rem;
+    margin-top: 2rem;
+}
+.form1 p{
+    margin-top: .3rem;
+}
+.form1 input{
+    width: 75%;
+    height: 28px;
+    border-radius: 2px;
+    border: 1px solid rgb(185, 182, 182);
+    margin-bottom: 1rem;
+}
+.form1 input::placeholder{
+    padding-left: .5rem;
+}
+.form1 span{
+    color: red;
+}
+.form1 .help-box{
+    height: 45px;
+    width: 75%;
+    border-radius: 3px;
+    border: 1px solid rgb(185, 182, 182);
+    margin-bottom: 1rem;
+    color: #606f85;
+    font-size: .8rem;
+}
+.form1 .button
+{
+    background-color: #e53b00;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+}
+.end-text{
+    color: black;
+}
+.end-text p{
+    color: black;
+}
+.technical-support:hover,.chat:hover{
+    box-shadow: inset -10px -10px rgb(223, 222, 222);
+    transition-duration: 1s;
+}

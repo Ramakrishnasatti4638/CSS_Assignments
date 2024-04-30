@@ -1,0 +1,73 @@
+.content{
+    background-color: #0b0f91;
+    height: 206px;
+}
+.content p{
+    text-align: center;
+    color: white;
+}
+.para1{
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 50px;
+    font-size: 32px;
+    padding-top: 35px;
+    line-height: 50px;
+}
+.para2{
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+.items ul{
+    float: left;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-left: 410px;
+}
+.items ul li{
+    margin-left: 0px;
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 20px;
+    width: 250px;
+    margin-right: -25px;
+}
+.items ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border-top: 1px transparent  black;
+    padding-top: 20px;
+    padding-bottom: 14px;
+
+}
+.items .team{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.items .unlimited{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.items .community{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.items ul li a:hover{
+    background-color: rgb(75, 75, 243);
+}
+.items ul li a:active{
+    background-color: white;
+    color: #0b0f91;
+    border-bottom: none;
+}

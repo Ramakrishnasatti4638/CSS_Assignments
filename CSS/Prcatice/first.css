@@ -1,0 +1,9 @@
+p{
+    background-image: url("Images/tomato.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:scroll;
+}
+.third{
+    border: 2px dotted green ;
+}

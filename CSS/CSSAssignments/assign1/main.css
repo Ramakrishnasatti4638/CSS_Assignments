@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #999;
+    
+}
+
+.container{
+    
+    width: 50%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 50%;
+    /* margin-top: 150px; */
+    
+    
+}
+.left-side{
+    width: 50%;
+    height: 450px;
+    background-color: rgba(159, 57, 57, 0.942);
+    display: flex;
+    flex-direction: column;
+}
+.left-content{
+    padding: 70px 30px;
+}
+.left-content p{
+    color: white;
+}
+.left-content .hello{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.left-content .login-message{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.login-btn{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fb-btn{
+    background-color: rgb(106, 106, 240);
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.g-btn{
+    background-color: rgb(240, 70, 70);
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+.x-btn{
+    background-color: rgb(20, 147, 190);
+    height: 40px;
+    border: none;
+    text-align: left;
+}
+.login-btn a{
+    color: white;
+    text-decoration: none;
+
+}
+.right-side{
+    width : 50%;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.right-content{
+    padding: 70px 30px;
+}
+.login{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+.message{
+    color: crimson;
+}
+.new-account a{
+    text-decoration: none;
+}
+.username{
+    height: 30px;
+    width: 95%;
+    margin: 15px 0;
+    border-color: rgba(0, 0, 0, 0.063);
+}
+.username::placeholder{
+    color: rgba(0, 0, 0, 0.275);
+    padding-left: 8px;
+}
+.password{
+    height: 30px;
+    width: 95%;
+    margin-bottom: 15px;
+    border-color: rgba(0, 0, 0, 0.063);;
+}
+.password::placeholder{
+    color: rgba(0, 0, 0, 0.275);
+    padding-left: 8px;
+}
+.remember{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.619);
+}
+.submit{
+    margin-top: 15px;
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: rgba(220, 20, 60, 0.852);
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.forgot{
+    color: crimson;
+    text-decoration: none;
+}
+.account{
+    color: crimson;
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.container{
+    height: 400px;
+    width: 50%;
+    border: 1px solid black;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+}
+div{
+    padding: 15px 15px;
+}

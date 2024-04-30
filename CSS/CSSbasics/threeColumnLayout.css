@@ -1,0 +1,25 @@
+.page{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content{
+    background-color: khaki;
+    padding: 15px;
+}
+.left-sidebar{
+    width: 20%;
+    float: left;
+    margin-right: 3%;
+}
+.sidebar
+{
+    width: 20%;
+    float: right;
+}
+.main{
+    width: 50%;
+    float: left;
+}
+.clear{
+    clear: both;
+}

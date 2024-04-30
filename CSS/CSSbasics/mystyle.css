@@ -1,0 +1,48 @@
+.display_prop{
+    width: 50%;
+    border: .15rem solid red;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    background-color:beige;
+}
+ul{
+    background-color: chocolate;
+    height: 50px;
+}
+li{
+    display: inline-block;
+    height: 50px;
+    padding: 0 15px;
+    line-height: 50px;
+}
+#coming_soon{
+    display: none;
+}
+.time_table{
+    width:55%;
+    border: 2px solid crimson;
+    border-collapse:collapse ;
+    
+}
+th{
+    border: 2px solid crimson;
+    padding: 5px;
+    text-align: center;
+    background-color: cadetblue;
+    color: wheat;
+}
+td{
+    border: 2px solid crimson;
+    padding: 5px;
+    background-color: cornflowerblue;
+}
+.time{
+    text-align: right;
+    background-color: teal;
+    color: wheat;
+}

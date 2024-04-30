@@ -1,0 +1,135 @@
+.navbar {
+    width: 100%;
+    height: 4.5rem;
+    position: fixed;
+    background-color: white;
+}
+
+.navbar-start {
+    align-items: center;
+    float: left;
+}
+
+.logo {
+    width: 30%;
+    height: 75px;
+    margin-left: 11rem;
+    float: left;
+    padding-top: 0rem;
+}
+
+.navbar-middle {
+    float: left;
+    margin-left: -3rem;
+}
+
+.navbar-middle ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.8rem;
+}
+
+.navbar-middle ul li {
+    list-style: none;
+    margin-left: 2rem;
+
+}
+
+.navbar-middle ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #283a5e;
+    font-size: 16px;
+}
+
+.navbar-middle ul li:hover {
+    background-color: rgba(0, 0, 0, 0.229);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .drop-link {
+
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #283a5e;
+
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #283a5e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar-end{
+
+    width: 400px;
+    height: 40px;
+    padding-top: 15px;
+    float: left;
+    margin-left: 7rem;
+    
+}
+.trail {
+    background-color: #e53b00;
+    height: 38px;
+    width: 90px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: -1rem;
+}
+
+.trail:hover{
+    background-color: #ff4000;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.demo {
+    margin-left: 20px;
+    background-color: white;
+    height: 38px;
+    width: 140px;
+    border: 2px solid #e53b00;
+    border-radius: 12px;
+    margin-right: 25px;
+    color: #e53b00;
+    font-size: 14px;
+    font-weight: 700;
+}
+.demo:hover{
+    background-color: #f8ddd5;
+    cursor: pointer;
+    transition-duration: 1s;
+}

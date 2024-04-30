@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main-box{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+}
+.main-box .sidebar{
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    
+}
+.sidebar .logo{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
+.sidebar .logo a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    line-height: 60px;
+    
+}
+.sidebar .menu{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+.sidebar .menu li{
+    margin-top: 0px;
+    padding: 14px 0px;
+    list-style: none;
+    
+}
+.home{
+    background-color: green;
+}
+.sidebar .menu li a{
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+.content{
+    position: relative;
+    left:200px;
+    font-size: 25px;
+    width: auto;
+}

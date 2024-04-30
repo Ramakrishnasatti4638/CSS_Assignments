@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width:40%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+button{
+    width: 75px;
+    height: 40px;
+}
+.button1{
+    width: 75px;
+    height: 40px;
+    background-color: coral;
+    border: none;
+    color: white;
+
+}
+.button2{
+    width: 75px;
+    height: 40px;
+    background-color: lightblue;
+    border: none;
+    color: white;
+}
+.button3{
+    width: 75px;
+    height: 40px;
+    background-color: lightgreen;
+    border: none;
+    color: white;
+}
+.button4{
+    width: 75px;
+    height: 40px;
+    background-color: rgb(255, 238, 0);
+    border: none;
+}
+.button5{
+    width: 75px;
+    height: 40px;
+    background-color: teal;
+    border: none;
+    color: white;
+}
+.button6{
+    width: 75px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.button7{
+    width: 75px;
+    height: 40px;
+    background-color: grey;
+    border: none;
+    color: white;
+}
+.button8{
+    background-color: white;
+    border: 1px solid rgb(240, 238, 238);
+}
+.button9{
+    background-color: rgb(172, 170, 170);
+    border: none;
+    border-radius: 3px;
+}
+.button10{
+    background-color: white;
+    border: 1px solid rgb(147, 168, 246);
+    border-radius: 3px;
+}
+.button11{
+    background-color: white;
+    border: 1px solid rgb(239, 99, 60);
+    color: rgb(239, 99, 60);
+    border-radius: 5px;
+}
+.button12{
+    background-color: white;
+    border: 1px solid rgb(117, 209, 91);
+    border-radius: 12px;
+}
+.button13{
+    background-color: rgb(246, 105, 105);
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.button14{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.button15{
+    border-radius: 50%;
+    width: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 25px;
+}
+.button16{
+    border-radius: 50%;
+    width: 45px;
+    background-color: teal;
+    color: white;
+    border: none;
+    font-size: 25px;
+}
+.button17{
+    border-radius: 50%;
+    width: 45px;
+    background-color: grey;
+    border: none;
+    font-size: 25px;
+}
+.button18{
+    
+    
+    background-color: black;
+    color: white;
+    border: none;
+   
+}
+.button19{
+    
+    
+    background-color: teal;
+    color: white;
+    border: none;
+    margin-left: -10px;
+    
+}
+.button20{
+    
+    color: white;
+    background-color: grey;
+    border: none;
+    margin-left: -10px;
+    
+}
+.container div{
+    padding-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}

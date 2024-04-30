@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #999;
+    font-family: sans-serif;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background: white;
+    margin:  auto;
+}
+.left-side{
+
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: rgb(153, 67, 67);
+}
+.content{
+    width: 100%;
+    padding: 65px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    color: white;
+}
+.content p{
+    margin-bottom: 15px;
+}
+.button1{
+    clear: both;
+}
+.fb-btn{
+    background-color: rgb(47, 47, 119);
+}
+.g-btn{
+    background-color: red;
+}
+.x-btn{
+    background-color: rgb(98, 98, 253);
+}
+.right-side{
+    float: right;
+    width: 50%;
+    height: 400px;
+    background-color: beige;
+    box-sizing: border-box;
+}
+.form-box{
+    width: 100%;
+    padding: 65px 40px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.form-box p{
+    margin-bottom: 7px;
+}
+
+.form-box input[type="text"], .form-box input[type="password"]{
+    border: 1px transparent black;
+    height: 40px;
+    width: 90%;
+}
+.form-box input[type="submit"]{
+    border: none;
+    height: 40px;
+    width: 70px;
+    color: white;
+    background-color: crimson;
+}
+
+
